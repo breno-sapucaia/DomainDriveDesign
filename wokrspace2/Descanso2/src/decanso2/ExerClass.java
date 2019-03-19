@@ -25,7 +25,7 @@ public class ExerClass {
 		encosto.setMarca("IEPG");
 		encosto.setValor(10.0);
 		
-		chupim.getBasico();
+		System.out.println(chupim.getBasico());
 		//System.out.print(chupim.codigo);
 		//System.out.print(chupim.descricao);
 		//System.out.print(chupim.marca);

@@ -34,7 +34,7 @@ public class Produto {
 
     public String getBasico() {
     	String retorno;
-    	retorno = this.codigo + " " + this.descricao;
+    	retorno = getCodigo() + "-" + getDescricao();
     	return retorno;
     }
 }
