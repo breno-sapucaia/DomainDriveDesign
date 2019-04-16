@@ -17,6 +17,8 @@ public class TesteConta {
 		System.out.println("|-------------------------------------------------------------------------------------|");
 		System.out.println("|R$:"+conta.retornarSaldo()+"    |"+conta.titular.nome+" |"+conta.titular.cpf+" |"+conta.titular.endereco.rua+" |"+conta.titular.endereco.getNumero()+"|"+conta.titular.endereco.complemento+" |"+conta.titular.endereco.bairro+"  |"+conta.titular.endereco.cep+"|");
 		System.out.println("|-------------------------------------------------------------------------------------|");
+	
+	
 	}
 
 }
