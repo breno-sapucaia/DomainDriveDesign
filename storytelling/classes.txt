@@ -1,0 +1,91 @@
+framework criptografar - md5
+
+classe Banco
+digito do banco 
+razão social
+cnpj
+endereço
+telefone
+url
+
+
+classe Endereço
+nº
+rua
+cep
+
+classe Telefone
+ddd
+numero
+
+
+
+classe Agencia
+cod
+nome
+endereço
+telefone
+banco
+
+
+classe Conta
+agencia
+tipo
+valorManutenção
+data de abertura
+data de fechamento
+cliente
+
+
+cliente
+codigo
+nome
+data ne nascimento
+sexo
+número do rg
+número de cpf
+endereço
+telefone
+email
+nacionalidade
+naturalidade
+escolaridade
+nome da empresa
+renda mensal bruta
+
+
+
+talão de cheque
+número da primeira folha de cheque
+numéro d aultima folha de chquete
+data do desbloqueio do cheque
+data de envio
+conta
+
+
+classe protocolo 
+codigo protocolo
+conta
+
+envios de cartões
+conta
+numero de indetificação
+data de validade
+data de emissão
+data do desbloqueio 
+tipo cartão
+
+
+
+entidade tipo cartão
+cartão conta salário,
+cartão de débito,
+cartão de crédito,
+cartão mútiplo;
+
+entidade tipo conta:
+conta corrente
+conta poupança;
+
+
+
