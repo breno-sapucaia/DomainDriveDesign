@@ -1,0 +1,17 @@
+.app {
+  height:100vh;
+  display: grid;
+  grid-template-columns: 150px 150px 1fr;
+  grid-template-rows: 100px 1fr 50px;
+  grid-template-areas: "app-logo app-logo app-header" "app-nav app-main app-main" "app-nav app-footer app-footer";
+}
+
+.app-nav { grid-area: app-nav; }
+
+.app-logo { grid-area: app-logo; }
+
+.app-header { grid-area: app-header; }
+
+.app-main { grid-area: app-main; }
+
+.app-footer { grid-area: app-footer; }
